@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#header {
+    background-position: center;
+    background-size: cover;
+    background-image: url(images/login3.jpg);
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    min-height: 100vh;
+}
+
+/* .mform {
+    margin-top: 2%;
+    margin-bottom: 25px;
+    position: relative;
+    width: 560px;
+    height: 630px;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    border-radius: 20px;
+    backdrop-filter: blur(15px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 4px 4px 10px 4px rgba(0, 0, 0, 0.15);
+} */
+
+.studetails {
+    /* margin: 50px;
+    padding: 50px; */
+    height: 100vh;
+    width: 83%;
+}
+
+form {
+    border: 1px solid white;
+    padding: 40px 100px 40px 100px;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    border-radius: 20px;
+    backdrop-filter: blur(15px);
+    justify-content: center;
+}
+
+h1 {
+    color: rgb(247, 243, 246);
+    font-size: 35px;
+    font-weight: bold;
+}
+
+label {
+    color: white;
+    font-size: 18px;
+    padding: 10px;
+    margin: 5px;
+    width: 100px;
+    display: inline-block;
+    text-align: left;
+}
+
+.mform {
+    margin-top: 2.5rem;
+    margin-bottom: 6rem;
+}
+
+form input {
+    padding: 5px;
+    width: 50%;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: white;
+    border-radius: 8px;
+    border-bottom: 2px solid rgb(238, 109, 195);
+    border-left: 2px solid rgb(242, 143, 232);
+}
+
+select {
+    font-size: 16px;
+    border: rgb(236, 127, 212);
+    background: transparent;
+    color: rgb(220, 89, 164);
+    padding-left: 25px;
+}
+
+.img {
+    border: none;
+    border-bottom: none;
+}
+
+button {
+    width: 80%;
+    height: 40px;
+    border-radius: 40px;
+    color: white;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: 600;
+    background-image: linear-gradient(to left, #6fcdca, #dc74bd, #3f3593);
+}
+
+button:hover {
+    background-image: linear-gradient(to left, #6fc4cd, #5ccda9, #dc74bd);
+
+}

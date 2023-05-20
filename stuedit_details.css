@@ -1,0 +1,71 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 150vh;
+    width: 100%;
+    background-image: url(images/login6.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+marquee {
+    font-size: 120%;
+    color: rgb(103, 227, 173);
+}
+
+table {
+    border-spacing: 5px;
+    border-radius: 8px;
+    border: 6px inset rgb(121, 219, 236);
+    padding: 10px;
+}
+
+th,
+td {
+    border-radius: 8px;
+    border-style: inset;
+    padding: 6px;
+}
+
+td {
+    font-size: 120%;
+    color: whitesmoke;
+    font-weight: bold;
+}
+
+input {
+    font-size: 70%;
+    background-color: transparent;
+    color: white;
+    border: 2px;
+    padding: 6px;
+    font-weight: bold;
+    border-radius: 8px;
+    font-family: Georgia;
+    text-align: center;
+}
+
+input:hover {
+    background-color: rgb(242, 243, 158);
+    color: navy;
+    padding: 6px;
+}
+
+.button {
+    background-image: linear-gradient(to left, #6fcdca, #dc74bd, #67dbe3);
+    width: 30%;
+    border-radius: 8px;
+    font-size: 28px;
+    border: 2px #4CAF50;
+    font-family: Georgia;
+    padding: 12px;
+}
+
+.button:hover {
+    font-size: 30px;
+}
+
+.img {
+    color: red;
+}
